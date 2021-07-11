@@ -1,4 +1,4 @@
-#include "string_hash.h"
+#include "program.h"
 
 //the array that contains the head pointers of the hash table
 Node* chain[SIZE];  //size = 13
@@ -147,7 +147,7 @@ void DeletebyName(void){
 }
 
 
-
+/*
 void main(void){
     int choice;
     init();
@@ -187,3 +187,4 @@ void main(void){
 
 }
 
+*/

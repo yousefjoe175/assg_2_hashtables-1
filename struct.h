@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <conio.h>
 
-typedef struct student
+struct Student
 {
     char Name[30];
     int ID;
     int Date[3]; 
     int Score;
-}student;
+};
 
+
+typedef struct Student student;
 #define SIZE 13
 #define FACTOR 7
