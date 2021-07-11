@@ -5,7 +5,7 @@ Node* chain[SIZE];  //size = 13
 
 //initialize the array of pinters to be all NULL
 void init(){
-    for(int i =0; i<7; i++){
+    for(int i =0; i<SIZE; i++){
         chain[i] = NULL;
     }
 }
@@ -147,7 +147,7 @@ void DeletebyName(void){
 }
 
 
-/*
+
 void main(void){
     int choice;
     init();
@@ -187,4 +187,3 @@ void main(void){
 
 }
 
-*/

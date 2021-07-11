@@ -8,3 +8,6 @@ typedef struct student
     int Date[3]; 
     int Score;
 }student;
+
+#define SIZE 13
+#define FACTOR 7
